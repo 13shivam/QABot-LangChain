@@ -82,7 +82,7 @@ curl --location 'http://127.0.0.1:8000/v1/upload' \
 **Sample Curl:**
 
 ```bash
-curl --location 'http://127.0.0.1:8000/v1/task/{task_id}'
+curl --location 'http://127.0.0.1:8000/v1/task/923fb629-76d5-4a14-8b86-6e3a28a27aa4'
 ```
 **Response:**
 
