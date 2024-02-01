@@ -2,6 +2,7 @@
 
 QABot-LangChain is a powerful backend API designed to function as an Answering bot, leveraging the capabilities of openai model. The set of APIs excels in providing answers to questions based on the content of a document, featuring a modular architecture with two core components: **web** and **worker**.
 
+
 ## Features
 
 - **Modular Architecture:** The system comprises two modules - web and worker - offering a seamless and scalable solution.
@@ -113,3 +114,7 @@ curl --location 'http://127.0.0.1:8000/v1/task/{task_id}'
 **2. cleanup files, add db layer for management**
 
 **3. docker, k8 and helm support charts**
+
+## Sample Request
+
+![](.github/rfdiag.jpg)
