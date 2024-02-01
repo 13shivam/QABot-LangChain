@@ -1,7 +1,7 @@
 import json
 import os
 from pypdf import PdfReader
-from app.utils.dir import get_project_root_resources_dir
+from app.utils.dir import get_project_root_output_dir
 
 
 # TODO
@@ -15,7 +15,7 @@ def load_pdf(file_path: str):
     reader = PdfReader(file_path)
     number_of_pages = len(reader.pages)
     file_name = os.path.splitext(os.path.basename(file_path))[0] + ".txt"
-    path = get_project_root_resources_dir()
+    path = get_project_root_output_dir()
     final_file_path = path + file_name
     with open(final_file_path, "w") as f:
         for i in range(number_of_pages):

@@ -10,7 +10,7 @@ from langchain_community.vectorstores import Chroma
 
 from app.schemas.answer_response import AnswerResponse
 from app.schemas.file_upload_request import FileUploadRequest
-from app.utils.dir import get_project_root_resources_dir, write_result_file_for_task
+from app.utils.dir import get_project_root_output_dir, write_result_file_for_task
 from app.utils.parser import load_pdf, read_json
 
 
@@ -58,7 +58,7 @@ def do_the_thing(request: FileUploadRequest, task_id: str):
 
 
 def retrieve_task(task_id: str):
-    resource_path = get_project_root_resources_dir()
+    resource_path = get_project_root_output_dir()
     result = []
     try:
         with open(resource_path + task_id + ".json", 'r') as json_file:

@@ -2,15 +2,15 @@ import json
 import os
 
 
-def get_project_root_resources_dir():
+def get_project_root_output_dir():
     script_path = os.path.abspath(__file__)
     # Get the directory of the script
     script_directory = os.path.dirname(script_path)
     # Get the project root directory by going up one level
     project_root = os.path.abspath(os.path.join(script_directory, ".."))
     # Append "/output" to the project root directory
-    resources_directory = os.path.join(project_root, "output/")
-    return resources_directory
+    output_directory = os.path.join(project_root, "output/")
+    return output_directory
 
 
 def write_result_file_for_task(task_id: str, loaded_file_path: str, results: dict):
