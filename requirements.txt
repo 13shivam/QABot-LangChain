@@ -1,0 +1,13 @@
+fastapi~=0.109.0
+pydantic~=2.6.0
+uvicorn~=0.27.0.post1
+pypdf
+openai
+chromadb
+tiktoken
+confluent_kafka
+aiokafka
+langchain-community
+python-dotenv~=1.0.1
+langchain
+langchain-openai

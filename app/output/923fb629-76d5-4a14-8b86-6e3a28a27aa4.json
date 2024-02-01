@@ -1,0 +1,14 @@
+[
+  {
+    "question": "What is public health preparedness?",
+    "answer": " Public health preparedness refers to the actions and resources put in place to prevent and respond to public health threats, such as antimicrobial resistance or pandemics. This includes investing in infrastructure, workforce, technology, and strategies to detect, prevent, and contain these threats."
+  },
+  {
+    "question": "What is  SARS-CoV-2 RNA ?",
+    "answer": "\nSARS-CoV-2 RNA is a marker used to detect the presence of COVID-19 in communities through wastewater surveillance. It carries genetic information and can aid in tracking the spread of the virus."
+  },
+  {
+    "question": "How does seven regional labs in CDC\u2019s AR Lab Network work?",
+    "answer": " The seven regional labs in CDC's AR Lab Network collaborate with each other during emergencies, such as the COVID-19 pandemic, to maintain critical national testing for antimicrobial resistance. They may offer tests outside of their typical regions or use their sequencing capacity to study new viruses, like SARS-CoV-2. These collaborations demonstrate the flexibility and adaptability of the AR Lab Network and how CDC's investments in antimicrobial resistance can be utilized during a crisis."
+  }
+]

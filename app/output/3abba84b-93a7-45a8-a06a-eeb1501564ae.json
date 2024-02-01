@@ -1,0 +1,14 @@
+[
+  {
+    "question": "What is a Conditional Branch?",
+    "answer": " A conditional branch is an instruction in a computer program that directs the flow of control to a different section of code based on certain conditions being met. It is typically used in high-level languages to create two-way or multiple-alternative conditionals, allowing for more complex decision-making in the program. The specific conditions that must be met for the branch to occur are determined by the programmer and can be based on various factors such as variable values or flag values."
+  },
+  {
+    "question": "What is a Compiler Architecture?",
+    "answer": " A compiler architecture refers to the basic components and processes involved in the functioning of a compiler. This includes the front end, optimizer, and code generator components, as well as the various stages of translating high-level code into lower-level machine code."
+  },
+  {
+    "question": "List out features of IDA pro?",
+    "answer": "\n1. Highly detailed disassembly capabilities\n2. Ability to produce powerful flowcharts for a given function\n3. Logical graphs showing code chunks and function flow\n4. Visual representation of conditional jumps and their effects on function flow\n5. Interfunction charts showing API or internal function calls\n6. Integration of debugger and disassembler in one program\n7. Intermediate language (IL) debugging for .NET programs\n8. Multiple informative views on process, including memory heaps and allocated blocks\n9. Improved user interface\n10. Better disassembler\n11. Code analysis capabilities\n12. Regular updates and bug fixes\n13. Capable user-mode debugger\n14. Combination of disassembler and debugger for easier reversing\n15. Solid debugging capabilities\n16. Decent intermediate language (IL) debugger for .NET programs. \n"
+  }
+]
