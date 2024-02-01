@@ -13,8 +13,9 @@ QABot-LangChain is a powerful backend API designed to function as an Answering b
 
 0. **Get OpenAI Key [here](https://platform.openai.com/account/api-keys)**
 1. **Kafka Cluster Running Locally:**
-   - Follow the Kafka basic setup instructions [here](https://kafka.apache.org/quickstart) to set up and run a Kafka cluster.
-   - Create topic and update topic in env file
+   - `make install-kafka` to install kafka 
+   - `make remove-kafka` to cleanup kafka 
+   - topic is created automatically when they're first referenced by the producer or consumer (KAFKA_AUTO_CREATE_TOPICS_ENABLE)
 2. **Python 3.x:**
    - QABot-LangChain is built using Python 3.x. Ensure that you have Python 3 installed on your system. You can download it from the [official Python website](https://www.python.org/downloads/).
 

@@ -6,6 +6,12 @@ install-web:
 install-worker:
 	pip install -r requirements.txt
 
+install-kafka:
+	docker-compose -f docker-compose-kafka.yml up -d
+
+remove-kafka:
+	docker-compose -f docker-compose-kafka.yml down -d
+
 run-web:
 	uvicorn app.main:web_app --host 0.0.0.0 --port 8000 --reload --log-level info
 
